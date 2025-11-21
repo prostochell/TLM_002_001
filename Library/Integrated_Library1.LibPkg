@@ -16,14 +16,14 @@ AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
-DefaultConfiguration=Sources
+DefaultConfiguration=Default - All Constraints
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
-AutoSheetNumbering=1
+AutoSheetNumbering=0
 AutoCrossReferences=1
 NewIndexingOfSheetSymbols=1
 PushECOToAnnotationFile=1
@@ -38,7 +38,7 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
+CrossRefSheetStyle=2
 CrossRefLocationStyle=1
 CrossRefPorts=3
 CrossRefCrossSheets=1
@@ -50,13 +50,13 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=TLM_002_ESP32S3.SchDoc
+DocumentPath=Generic-Schematic-Library.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -64,16 +64,16 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AZRWJFVN
+DocumentUniqueId=IAYENBCM
 
 [Document2]
-DocumentPath=TLM_002_MAX6675.SchDoc
+DocumentPath=Generic-Schematic-Library.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=1
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -81,85 +81,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=GMJNJTFZ
-
-[Document3]
-DocumentPath=TLM_002_MAX31856.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=UNAWLKRZ
-
-[Document4]
-DocumentPath=TLM_002_INA228.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TGEIVASV
-
-[Document5]
-DocumentPath=TLM_002_SD.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BRTAFIWY
-
-[Document6]
-DocumentPath=TLM_002_RTC.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LHHPIUHJ
-
-[Configuration1]
-Name=Sources
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=[No Variations]
-OutputJobsCount=0
-ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
-ConfigurationType=Source
+DocumentUniqueId=THVBELKD
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1110,28 +1032,10 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=SamacSys.SchLib
-ComponentDesignItemID0=112C-TBAR-R02
-ComponentSymbolReference0=112C-TBAR-R02
-ComponentUpdate0=1
-ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Vault Name
-ComponentLibraryIdentifier1=Altium Content Vault
-ComponentDesignItemID1=CMP-2007-01676-1
-ComponentSymbolReference1=CAP
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Vault Name
-ComponentLibraryIdentifier2=Altium Content Vault
-ComponentDesignItemID2=CMP-2007-04651-1
-ComponentSymbolReference2=CAP
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1145,57 +1049,6 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Arrow Part Number
-ParameterUpdate0=1
-ParameterName1=Arrow Price/Stock
-ParameterUpdate1=1
-ParameterName2=Comment
-ParameterUpdate2=1
-ParameterName3=Component Kind
-ParameterUpdate3=1
-ParameterName4=Datasheet Link
-ParameterUpdate4=1
-ParameterName5=Description
-ParameterUpdate5=1
-ParameterName6=Height
-ParameterUpdate6=1
-ParameterName7=Library Reference
-ParameterUpdate7=1
-ParameterName8=Manufacturer
-ParameterUpdate8=1
-ParameterName9=Manufacturer_Name
-ParameterUpdate9=1
-ParameterName10=Manufacturer_Part_Number
-ParameterUpdate10=1
-ParameterName11=Mouser Part Number
-ParameterUpdate11=1
-ParameterName12=Mouser Price/Stock
-ParameterUpdate12=1
-ParameterName13=Part Number
-ParameterUpdate13=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=112CTBARR02
-ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=CAPC2013X140X50LL20T25
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=CAPC2013X140X50ML20T25
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=CAPC2013X140X50NL20T25
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=CAPC2013X145X50LL20T20
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=CAPC2013X145X50ML20T20
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=CAPC2013X145X50NL20T20
-ModelUpdate6=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1210,7 +1063,4 @@ ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
 ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-
-[SmartPDF]
-PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
