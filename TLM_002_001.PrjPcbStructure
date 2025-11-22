@@ -1,6 +1,12 @@
-Record=TopLevelDocument|FileName=TLM_002_ESP32S3.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=TLM_002_ESP32S3.SchDoc|FileName=TLM_002_INA228.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=TLM_002_ESP32S3.SchDoc|FileName=TLM_002_MAX6675.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=TLM_002_ESP32S3.SchDoc|FileName=TLM_002_MAX31856.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=TLM_002_ESP32S3.SchDoc|FileName=TLM_002_RTC.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=TLM_002_ESP32S3.SchDoc|FileName=TLM_002_SD.SchDoc|SheetNumber=5
+Record=TopLevelDocument|FileName=TLM_002_MBR.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=TLM_002_MBR.SchDoc|Designator=DS3231SN_RTC|SchDesignator=DS3231SN_RTC|FileName=TLM_002_DS3231SN_RTC.SchDoc|SheetNumber=7|SymbolType=Normal|RawFileName=TLM_002_DS3231SN_RTC.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLM_002_MBR.SchDoc|Designator=ESP32-S3|SchDesignator=ESP32-S3|FileName=TLM_002_ESP32S3.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=TLM_002_ESP32S3.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLM_002_MBR.SchDoc|Designator=INA228_1|SchDesignator=INA228_1|FileName=TLM_002_INA228.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=TLM_002_INA228.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLM_002_MBR.SchDoc|Designator=INA228_2|SchDesignator=INA228_2|FileName=TLM_002_INA228.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=TLM_002_INA228.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLM_002_MBR.SchDoc|Designator=INA228_3|SchDesignator=INA228_3|FileName=TLM_002_INA228.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=TLM_002_INA228.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLM_002_MBR.SchDoc|Designator=MAX6675_1|SchDesignator=MAX6675_1|FileName=TLM_002_MAX6675.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=TLM_002_MAX6675.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLM_002_MBR.SchDoc|Designator=MAX6675_2|SchDesignator=MAX6675_2|FileName=TLM_002_MAX6675.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=TLM_002_MAX6675.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLM_002_MBR.SchDoc|Designator=MAX31856|SchDesignator=MAX31856|FileName=TLM_002_MAX31856.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=TLM_002_MAX31856.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLM_002_MBR.SchDoc|Designator=MCP3021|SchDesignator=MCP3021|FileName=TLM_002_MCP3021.SchDoc|SheetNumber=8|SymbolType=Normal|RawFileName=TLM_002_MCP3021.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLM_002_MBR.SchDoc|Designator=SD_Card|SchDesignator=SD_Card|FileName=TLM_002_SD.SchDoc|SheetNumber=6|SymbolType=Normal|RawFileName=TLM_002_SD.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=TLM_002_MBR.SchDoc|FileName=TLM_002_SRC.SchDoc|SheetNumber=9
