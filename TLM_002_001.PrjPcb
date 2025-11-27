@@ -241,80 +241,80 @@ Name=__Project_Template_Version
 Value=1.0.3
 
 [Parameter2]
-Name=_PCB_Order_Thickness
-Value=1.6 mm
+Name=_PCB_Order_Accuracy
+Value=0.2mm / 8mil
 
 [Parameter3]
-Name=_PCB_Order_Size
-Value=0 x 0 mm
+Name=_PCB_Order_BoardOutlineLayer
+Value=Mechanical1 (GM1)
 
 [Parameter4]
-Name=_PCB_Order_SilkColor
-Value=White / Black
+Name=_PCB_Order_CastellatedHolesEdges
+Value=No
 
 [Parameter5]
-Name=_PCB_Order_Silk
-Value=Yes
+Name=_PCB_Order_Cooper
+Value=1oz / 35um
 
 [Parameter6]
-Name=_PCB_Order_MinHole
-Value=0.3 mm
+Name=_PCB_Order_ElectricTest
+Value=Necessarily for 100% samples
 
 [Parameter7]
-Name=_PCB_Order_Material
-Value=FR-4
+Name=_PCB_Order_Finish
+Value=HASL
 
 [Parameter8]
-Name=_PCB_Order_MaskColor
-Value=Black / White
+Name=_PCB_Order_LayersCnt
+Value=2
 
 [Parameter9]
 Name=_PCB_Order_Mask
 Value=on both sides
 
 [Parameter10]
-Name=_PCB_Order_LayersCnt
-Value=2
+Name=_PCB_Order_MaskColor
+Value=Black / White
 
 [Parameter11]
-Name=_PCB_Order_Finish
-Value=HASL
+Name=_PCB_Order_Material
+Value=FR-4
 
 [Parameter12]
-Name=_PCB_Order_ElectricTest
-Value=Necessarily for 100% samples
+Name=_PCB_Order_MinHole
+Value=0.3 mm
 
 [Parameter13]
-Name=_PCB_Order_Cooper
-Value=1oz / 35um
+Name=_PCB_Order_Silk
+Value=Yes
 
 [Parameter14]
-Name=_PCB_Order_CastellatedHolesEdges
-Value=No
+Name=_PCB_Order_SilkColor
+Value=White / Black
 
 [Parameter15]
-Name=_PCB_Order_BoardOutlineLayer
-Value=Mechanical1 (GM1)
+Name=_PCB_Order_Size
+Value=0 x 0 mm
 
 [Parameter16]
-Name=_PCB_Order_Accuracy
-Value=0.2mm / 8mil
+Name=_PCB_Order_Thickness
+Value=1.6 mm
 
 [Parameter17]
-Name=Project_Version
-Value=1
+Name=Authors
+Value=Nazar Lysenko/Andrii Antonenko
 
 [Parameter18]
-Name=Project_ID
-Value=001
-
-[Parameter19]
 Name=Product_Name
 Value=TLM_002
 
+[Parameter19]
+Name=Project_ID
+Value=001
+
 [Parameter20]
-Name=Authors
-Value=Nazar Lysenko/Andrii Antonenko  
+Name=Project_Version
+Value=1
 
 [Configuration1]
 Name=Sources
